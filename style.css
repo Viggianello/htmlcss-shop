@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+div{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    border-radius: 6px;
+    border-color: black;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+.space{
+    background-color: white;
+}
+span{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 0px;
+    right: 0px;
+    background-color: blue;
+}
