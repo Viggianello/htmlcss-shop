@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-div{
+.smartphone,.fotocamere,.portatili{
     background-color: red;
     height: 300px;
     width: 300px;
@@ -11,7 +11,6 @@ div{
     border-color: black;
     display: inline-block;
     position: relative;
-    margin-bottom: 10px;
 }
 .space{
     background-color: white;
@@ -34,6 +33,7 @@ background-image: url(img/smartphone.jpg);
     background-image: url(img/portatili.jpg);
 }
 h1{
+    position: absolute;
     text-align: center;
     display: none;
     color: black;
