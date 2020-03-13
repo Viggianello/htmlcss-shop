@@ -22,5 +22,28 @@ span{
     width: 50px;
     top: 0px;
     right: 0px;
-    background-color: blue;
+    background-color: lightblue;
+}
+.smartphone{
+background-image: url(img/smartphone.jpg);
+}
+.fotocamere{
+    background-image: url(img/fotocamere.jpg);
+}
+.portatili{
+    background-image: url(img/portatili.jpg);
+}
+h1{
+    text-align: center;
+    display: none;
+    color: black;
+}
+.portatili:hover h1{
+    display: block;
+}
+.smartphone:hover h1{
+    display: block;
+}
+.fotocamere:hover h1{
+    display: block;
 }
