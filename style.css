@@ -34,7 +34,8 @@ background-image: url(img/smartphone.jpg);
 }
 h1{
     position: absolute;
-    text-align: center;
+    top: 50%;
+    right: 40%;
     display: none;
     color: black;
 }
